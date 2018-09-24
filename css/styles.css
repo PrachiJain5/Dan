@@ -17,7 +17,7 @@ a {color: #326196;text-decoration: underline; font-weight: 700;}
 a:visited {color: #326196;	text-decoration: underline;}
 a:focus {outline: thin dotted;}
 a:active {color: #035D67; outline: 0;}
-a:hover {color: #7AA637 !important}
+a:hover {color: #7AA637 }
 a:hover.drawer-brand {
     color: #ffffff;
 }
@@ -31,7 +31,7 @@ h1,h2,h3,h4,h5,h6 {
 
 h1 /*header*/ {font-size: 240%; margin: 40px 0 10px}
 h2 /*subheader*/  {font-size: 140%; margin: 20px 0 40px}  
-h3 /*section header*/{font-size: 180%; margin: 20px 0 10px;} 
+h3 /*section header*/{font-size: 140%; margin: 20px 0 10px;} 
 h4 /*section titles*/ {font-size: 140%; font-weight: 400;}
 h5 /*labels & intro*/ {font-size: 120%;}
 h6 /*notes*/ {font-size: 90%; } 
@@ -112,7 +112,7 @@ a:active.button-link{color: #ffffff; background-color: #035D67;box-shadow: 0px 0
     /* -moz-border-radius: 4px;
     -webkit-border-radius: 4px; */
     border-radius: 4px;
-    box-shadow: 1px 1px 6px #ccc;
+    /* box-shadow: 1px 1px 6px #ccc; */
     background: #e4f2f4 url(../images/magnify.png) 10px 50% no-repeat;
     background-size: 40px;
     /* position: relative; */
@@ -932,4 +932,8 @@ table, th ,tr,td {
 }
 .accord_section{
     display: none;
+}
+
+a.home-link {
+    margin-left: 10px;
 }
